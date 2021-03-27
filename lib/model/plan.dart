@@ -6,6 +6,10 @@ class Plant {
   String imageUrl;
   int height;
   bool islike;
+  String huongdan;
+  String quycach;
+  String sd;
+  String trongluong;
 
   Plant({
     this.name,
@@ -14,36 +18,71 @@ class Plant {
     this.description,
     this.imageUrl,
     this.height,
-    this.islike,
+    this.huongdan,
+    this.quycach,
+    this.trongluong,
+    this.sd,
   });
 }
 
 List<Plant> listPlants = [
   Plant(
-    name: 'Xương rồng',
-    price: 19,
-    category: 'Indoor plant',
-    description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    imageUrl: 'assets/images/image_1.png',
-    height: 140,
-  ),
+      name: 'Cây Kim Ngân',
+      price: 19000,
+      category: 'Indoor plant',
+      description:
+          'Kết hợp độc đáo giữa Sen đá & chậu sứ Bát Tràng,Kích thước nhỏ nhắn phù hợp mọi không gian,Cây xanh giúp giảm căng thẳng, hút bức xạ điện tử,Là loại cây rất khỏe, bền & ít cần chăm sóc,Phù hợp trang trí để bàn, tô điểm góc làm việc thêm mầu sắc & sức sống',
+      imageUrl: 'assets/images/image_1.png',
+      height: 140,
+      trongluong: '300 g',
+      sd: 'Chậu cây phù hợp để bàn trang trí góc làm việc, góc học tập...',
+      quycach:
+          'Bộ sản phẩm bao gồm: 01 cẩm nhung, 01 chậu sứ, đất & sỏi cát trắng,sản phẩm được bọc ngoài bằng hộp Carton 03 lớp,bên trong hộp có chèn xốp hơi để chống va đạp, vỡ bể',
+      huongdan:
+          'Để nơi thoáng, ánh sáng nhẹ,nước tưới: vừa đủ ẩm, 2 - 3 lần/ tuần'),
   Plant(
     name: 'Sen đá',
     price: 18,
     category: 'Indoor plant',
+    sd: 'Chậu cây phù hợp để bàn trang trí góc làm việc, góc học tập...',
     description:
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     imageUrl: 'assets/images/image_2.png',
     height: 140,
+    trongluong: '300 g',
+    quycach:
+        'Bộ sản phẩm bao gồm: 01 cẩm nhung, 01 chậu sứ, đất & sỏi cát trắng,sản phẩm được bọc ngoài bằng hộp Carton 03 lớp,bên trong hộp có chèn xốp hơi để chống va đạp, vỡ bể',
+    huongdan:
+        'Để nơi thoáng, ánh sáng nhẹ,nước tưới: vừa đủ ẩm, 2 - 3 lần/ tuần',
   ),
   Plant(
     name: 'Xương cá',
     price: 20,
     category: 'Indoor plant',
+    sd: 'Chậu cây phù hợp để bàn trang trí góc làm việc, góc học tập...',
     description:
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     imageUrl: 'assets/images/image_3.png',
     height: 140,
+    trongluong: '300 g',
+    quycach:
+        'Bộ sản phẩm bao gồm: 01 cẩm nhung, 01 chậu sứ, đất & sỏi cát trắng,sản phẩm được bọc ngoài bằng hộp Carton 03 lớp,bên trong hộp có chèn xốp hơi để chống va đạp, vỡ bể',
+    huongdan:
+        'Để nơi thoáng, ánh sáng nhẹ,nước tưới: vừa đủ ẩm, 2 - 3 lần/ tuần',
+  ),
+  Plant(
+    name: 'Sen đá mini',
+    price: 30000,
+    category: 'Indoor plant',
+    sd: 'Chậu cây phù hợp để bàn trang trí góc làm việc, góc học tập...',
+    description:
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+    imageUrl: 'assets/images/senmini.jpg',
+    height: 50,
+    trongluong: '300 g',
+    quycach:
+        'Bộ sản phẩm bao gồm: 01 cẩm nhung, 01 chậu sứ, đất & sỏi cát trắng,sản phẩm được bọc ngoài bằng hộp Carton 03 lớp,bên trong hộp có chèn xốp hơi để chống va đạp, vỡ bể',
+    huongdan:
+        'Để nơi thoáng, ánh sáng nhẹ,nước tưới: vừa đủ ẩm, 2 - 3 lần/ tuần',
   ),
 ];

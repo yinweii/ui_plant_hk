@@ -12,6 +12,7 @@ const Color lightGreen = Color(0xFF80CBC4);
 const double appPadding = 20.0;
 const kTextColor = Color(0xFF3C4046);
 const kBackgroundColor = Color(0xFFF9F8FD);
+const kmeloncolor = Color(0xFFff7b7b);
 
 const double kDefaultPadding = 15.0;
 const kPrimaryColor = Color(0xFF0C9869);

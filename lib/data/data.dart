@@ -5,3 +5,10 @@ final List<String> categoryList = [
   'Cây treo',
   'Khác',
 ];
+final List<String> sizePlant = [
+  '5cm',
+  '10cm',
+  '15cm',
+  '20cm',
+  '25cm',
+];

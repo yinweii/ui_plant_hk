@@ -53,7 +53,14 @@ class RecomendPlantCard extends StatelessWidget {
       width: size.width * 0.4,
       child: Column(
         children: <Widget>[
-          Image.asset(imageUrl),
+          Image(
+            height: 200,
+            width: size.width * 0.6,
+            fit: BoxFit.cover,
+            image: AssetImage(
+              imageUrl,
+            ),
+          ),
           GestureDetector(
             onTap: () {},
             child: Container(
@@ -90,13 +97,6 @@ class RecomendPlantCard extends StatelessWidget {
                     ),
                   ),
                   Spacer(),
-                  Text(
-                    '${price}k',
-                    style: Theme.of(context)
-                        .textTheme
-                        .button
-                        .copyWith(color: kPrimaryColor),
-                  )
                 ],
               ),
             ),
