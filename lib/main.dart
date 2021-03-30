@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:plantshop/page/homepage.dart';
+import 'package:plantshop/page/loginpage.dart';
 import 'package:plantshop/uitl/global.dart';
+
+import 'page/registerpage.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         scaffoldBackgroundColor: white,
       ),
-      home: HomeScreen(),
+      home: LoginScreen(),
     );
   }
 }

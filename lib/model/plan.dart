@@ -27,12 +27,12 @@ class Plant {
 
 List<Plant> listPlants = [
   Plant(
-      name: 'Cây Kim Ngân',
+      name: 'Sen đá Limited',
       price: 19000,
       category: 'Indoor plant',
       description:
           'Kết hợp độc đáo giữa Sen đá & chậu sứ Bát Tràng,Kích thước nhỏ nhắn phù hợp mọi không gian,Cây xanh giúp giảm căng thẳng, hút bức xạ điện tử,Là loại cây rất khỏe, bền & ít cần chăm sóc,Phù hợp trang trí để bàn, tô điểm góc làm việc thêm mầu sắc & sức sống',
-      imageUrl: 'assets/images/image_1.png',
+      imageUrl: 'assets/images/sendakc.jpg',
       height: 140,
       trongluong: '300 g',
       sd: 'Chậu cây phù hợp để bàn trang trí góc làm việc, góc học tập...',
@@ -41,28 +41,13 @@ List<Plant> listPlants = [
       huongdan:
           'Để nơi thoáng, ánh sáng nhẹ,nước tưới: vừa đủ ẩm, 2 - 3 lần/ tuần'),
   Plant(
-    name: 'Sen đá',
-    price: 18,
+    name: 'Kim Tiền',
+    price: 18000,
     category: 'Indoor plant',
     sd: 'Chậu cây phù hợp để bàn trang trí góc làm việc, góc học tập...',
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    imageUrl: 'assets/images/image_2.png',
-    height: 140,
-    trongluong: '300 g',
-    quycach:
-        'Bộ sản phẩm bao gồm: 01 cẩm nhung, 01 chậu sứ, đất & sỏi cát trắng,sản phẩm được bọc ngoài bằng hộp Carton 03 lớp,bên trong hộp có chèn xốp hơi để chống va đạp, vỡ bể',
-    huongdan:
-        'Để nơi thoáng, ánh sáng nhẹ,nước tưới: vừa đủ ẩm, 2 - 3 lần/ tuần',
-  ),
-  Plant(
-    name: 'Xương cá',
-    price: 20,
-    category: 'Indoor plant',
-    sd: 'Chậu cây phù hợp để bàn trang trí góc làm việc, góc học tập...',
-    description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    imageUrl: 'assets/images/image_3.png',
+        'Kết hợp độc đáo giữa Sen đá & chậu sứ Bát Tràng,Kích thước nhỏ nhắn phù hợp mọi không gian,Cây xanh giúp giảm căng thẳng, hút bức xạ điện tử,Là loại cây rất khỏe, bền & ít cần chăm sóc,Phù hợp trang trí để bàn, tô điểm góc làm việc thêm mầu sắc & sức sống',
+    imageUrl: 'assets/images/kimtien.png',
     height: 140,
     trongluong: '300 g',
     quycach:
@@ -76,9 +61,39 @@ List<Plant> listPlants = [
     category: 'Indoor plant',
     sd: 'Chậu cây phù hợp để bàn trang trí góc làm việc, góc học tập...',
     description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+        'Kết hợp độc đáo giữa Sen đá & chậu sứ Bát Tràng,Kích thước nhỏ nhắn phù hợp mọi không gian,Cây xanh giúp giảm căng thẳng, hút bức xạ điện tử,Là loại cây rất khỏe, bền & ít cần chăm sóc,Phù hợp trang trí để bàn, tô điểm góc làm việc thêm mầu sắc & sức sống',
     imageUrl: 'assets/images/senmini.jpg',
-    height: 50,
+    height: 70,
+    trongluong: '300 g',
+    quycach:
+        'Bộ sản phẩm bao gồm: 01 cẩm nhung, 01 chậu sứ, đất & sỏi cát trắng,sản phẩm được bọc ngoài bằng hộp Carton 03 lớp,bên trong hộp có chèn xốp hơi để chống va đạp, vỡ bể',
+    huongdan:
+        'Để nơi thoáng, ánh sáng nhẹ,nước tưới: vừa đủ ẩm, 2 - 3 lần/ tuần',
+  ),
+  Plant(
+    name: 'Sương rồng',
+    price: 99000,
+    category: 'Indoor plant',
+    sd: 'Chậu cây phù hợp để bàn trang trí góc làm việc, góc học tập...',
+    description:
+        'Kết hợp độc đáo giữa Sen đá & chậu sứ Bát Tràng,Kích thước nhỏ nhắn phù hợp mọi không gian,Cây xanh giúp giảm căng thẳng, hút bức xạ điện tử,Là loại cây rất khỏe, bền & ít cần chăm sóc,Phù hợp trang trí để bàn, tô điểm góc làm việc thêm mầu sắc & sức sống',
+    imageUrl: 'assets/images/suongrong1.jpg',
+    height: 140,
+    trongluong: '300 g',
+    quycach:
+        'Bộ sản phẩm bao gồm: 01 cẩm nhung, 01 chậu sứ, đất & sỏi cát trắng,sản phẩm được bọc ngoài bằng hộp Carton 03 lớp,bên trong hộp có chèn xốp hơi để chống va đạp, vỡ bể',
+    huongdan:
+        'Để nơi thoáng, ánh sáng nhẹ,nước tưới: vừa đủ ẩm, 2 - 3 lần/ tuần',
+  ),
+  Plant(
+    name: 'Phú quý',
+    price: 199000,
+    category: 'Indoor plant',
+    sd: 'Chậu cây phù hợp để bàn trang trí góc làm việc, góc học tập...',
+    description:
+        'Kết hợp độc đáo giữa Sen đá & chậu sứ Bát Tràng,Kích thước nhỏ nhắn phù hợp mọi không gian,Cây xanh giúp giảm căng thẳng, hút bức xạ điện tử,Là loại cây rất khỏe, bền & ít cần chăm sóc,Phù hợp trang trí để bàn, tô điểm góc làm việc thêm mầu sắc & sức sống',
+    imageUrl: 'assets/images/phattai.jpg',
+    height: 150,
     trongluong: '300 g',
     quycach:
         'Bộ sản phẩm bao gồm: 01 cẩm nhung, 01 chậu sứ, đất & sỏi cát trắng,sản phẩm được bọc ngoài bằng hộp Carton 03 lớp,bên trong hộp có chèn xốp hơi để chống va đạp, vỡ bể',

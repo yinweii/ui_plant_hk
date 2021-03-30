@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plantshop/page/shopping_page.dart';
+import 'package:plantshop/uitl/global.dart';
 
 import 'menu_item_widget.dart';
 
@@ -7,7 +8,7 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blueAccent,
+      color: Color(0xFFa7bfb3).withOpacity(0.8),
       padding: EdgeInsets.symmetric(horizontal: 16),
       child: Column(children: [
         SizedBox(height: 50),
@@ -22,19 +23,27 @@ class MyDrawer extends StatelessWidget {
           ),
           SizedBox(width: 16),
           Expanded(
-              child: Text('Phong',
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold)))
+            child: Text(
+              'Phong',
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
+            ),
+          ),
         ]),
         SizedBox(height: 30),
         MenuItem(title: 'Home', icon: Icons.home),
         MenuItem(title: 'My Account', icon: Icons.person),
         GestureDetector(
-            onTap: () => Navigator.push(context,
-                MaterialPageRoute(builder: (context) => ShoppingCard())),
-            child: MenuItem(title: 'My Orders', icon: Icons.history)),
+          onTap: () => Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => ShoppingCard(),
+            ),
+          ),
+          child: MenuItem(title: 'My Orders', icon: Icons.history),
+        ),
         MenuItem(title: 'Wishlist', icon: Icons.list),
         MenuItem(
           title: 'Settings',

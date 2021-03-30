@@ -39,6 +39,7 @@ class _DetailPageState extends State<DetailPage> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Color(0xFFf5d5d3).withOpacity(0.95),
       body: Container(
         child: Column(
           children: [
@@ -84,8 +85,8 @@ class _DetailPageState extends State<DetailPage> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          _buildLable('Tên', '${widget.name}'),
-                          _buildLable('Giá', '${widget.price}₫'),
+                          _buildLable('Tên:', '${widget.name}'),
+                          _buildLable('Giá:', '${widget.price} ₫'),
                         ],
                       ),
                     ),
@@ -120,6 +121,7 @@ class _DetailPageState extends State<DetailPage> {
                 ],
               ),
             ),
+            SizedBox(height: 8),
             SelectSize(),
             SizedBox(height: 10),
             Padding(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plantshop/uitl/global.dart';
 
 class MenuItem extends StatelessWidget {
   final String title;
@@ -14,14 +15,17 @@ class MenuItem extends StatelessWidget {
           children: [
             Icon(
               icon,
-              color: Colors.lightBlueAccent,
+              color: kmeloncolor,
               size: 30,
             ),
-            SizedBox(width: 16),
+            SizedBox(width: 20),
             Expanded(
                 child: Text(
               title,
-              style: TextStyle(fontSize: 12, color: Colors.white),
+              style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.white,
+                  fontWeight: FontWeight.w500),
             ))
           ],
         ),

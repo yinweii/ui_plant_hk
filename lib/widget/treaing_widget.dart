@@ -81,8 +81,6 @@ class _CardPlantState extends State<CardPlant> {
     Size size = MediaQuery.of(context).size;
     return Padding(
       padding: const EdgeInsets.only(right: 10),
-
-      // onTap: () => tapQQ(),
       child: Container(
         width: size.width / 2.5,
         height: 230,
@@ -101,6 +99,7 @@ class _CardPlantState extends State<CardPlant> {
                   children: [
                     Image(
                       height: 188,
+                      width: size.width / 2.5,
                       fit: BoxFit.cover,
                       image: AssetImage(
                         '${widget.imageUrl}',

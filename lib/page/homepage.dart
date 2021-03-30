@@ -27,10 +27,10 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Builder(
             builder: (context) => IconButton(
               icon: SvgPicture.asset(
-                "assets/images/drawer.svg",
-                height: 24,
-                width: 34,
-                color: darkGreen,
+                "assets/images/menudr.svg",
+                height: 50,
+                width: 50,
+                fit: BoxFit.cover,
               ),
               onPressed: () => Scaffold.of(context).openDrawer(),
             ),
@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.only(right: appPadding),
             child: IconButton(
               icon: Icon(Icons.shopping_cart_outlined),
-              color: black,
+              color: lightGreen,
               onPressed: () => Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => ShoppingCard()),
@@ -67,13 +67,24 @@ class _HomeScreenState extends State<HomeScreen> {
               Text(
                 'Plants Shop',
                 style: TextStyle(
-                    color: black,
+                    color: kPrimaryColor,
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
                     fontFamily: 'Volkhov'),
               ),
               SelectCategory(),
               RecomendsPlants(),
+              Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: Text(
+                  'Trending',
+                  style: TextStyle(
+                      color: lightGreen,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w600,
+                      fontFamily: 'Volkhov'),
+                ),
+              ),
               Treaningplane(),
             ],
           ),
