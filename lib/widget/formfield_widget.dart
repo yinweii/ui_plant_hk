@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plantshop/uitl/global.dart';
+import 'package:plantshop/utils/global.dart';
 
 class CustomTextField extends StatelessWidget {
   final String lable;

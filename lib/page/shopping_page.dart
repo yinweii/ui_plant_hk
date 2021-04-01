@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plantshop/uitl/global.dart';
+import 'package:plantshop/utils/global.dart';
 import 'package:plantshop/widget/bodycart_widget.dart';
 
 class ShoppingCard extends StatefulWidget {

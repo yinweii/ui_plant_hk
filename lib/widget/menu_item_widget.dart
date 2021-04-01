@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plantshop/uitl/global.dart';
+import 'package:plantshop/utils/global.dart';
 
 class MenuItem extends StatelessWidget {
   final String title;

@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:plantshop/page/homepage.dart';
 import 'package:plantshop/page/loginpage.dart';
-import 'package:plantshop/uitl/global.dart';
-
-import 'page/registerpage.dart';
+import 'package:plantshop/utils/global.dart';
 
 void main() {
   runApp(MyApp());

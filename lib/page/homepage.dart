@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plantshop/page/shopping_page.dart';
-import 'package:plantshop/uitl/global.dart';
+import 'package:plantshop/utils/global.dart';
 import 'package:plantshop/widget/drawer_widget.dart';
 import 'package:plantshop/widget/popular_widget.dart';
 import 'package:plantshop/widget/select_category.dart';

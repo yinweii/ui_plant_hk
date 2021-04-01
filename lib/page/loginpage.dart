@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:plantshop/page/homepage.dart';
 import 'package:plantshop/page/registerpage.dart';
-import 'package:plantshop/uitl/button.dart';
-import 'package:plantshop/uitl/global.dart';
+import 'package:plantshop/utils/button.dart';
+import 'package:plantshop/utils/global.dart';
 import 'package:plantshop/widget/formfield_widget.dart';
 
 class LoginScreen extends StatefulWidget {

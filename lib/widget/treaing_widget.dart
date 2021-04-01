@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:plantshop/model/plan.dart';
 import 'package:plantshop/page/detailpage.dart';
-import 'package:plantshop/uitl/global.dart';
+import 'package:plantshop/utils/global.dart';
 
 class Treaningplane extends StatefulWidget {
   @override

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:plantshop/data/data.dart';
 import 'package:plantshop/model/plan.dart';
-import 'package:plantshop/uitl/global.dart';
+import 'package:plantshop/utils/global.dart';
 
 class RecomendsPlants extends StatelessWidget {
   @override

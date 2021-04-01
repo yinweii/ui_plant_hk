@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:plantshop/page/registerpage.dart';
 
 class CustomButton extends StatelessWidget {
   final String text;

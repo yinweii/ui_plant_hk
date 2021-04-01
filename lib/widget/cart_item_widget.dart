@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plantshop/model/cart.dart';
-import 'package:plantshop/uitl/global.dart';
+import 'package:plantshop/utils/global.dart';
 
 class CartItem extends StatelessWidget {
   const CartItem({

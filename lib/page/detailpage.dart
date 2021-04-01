@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plantshop/uitl/global.dart';
-import 'package:plantshop/widget/select_category.dart';
+import 'package:plantshop/utils/global.dart';
 import 'package:plantshop/widget/selectsize_widget.dart';
 import 'package:slide_popup_dialog/slide_popup_dialog.dart ' as slideDialog;
 

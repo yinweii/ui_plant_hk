@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:plantshop/page/shopping_page.dart';
-import 'package:plantshop/uitl/global.dart';
-
 import 'menu_item_widget.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -24,7 +22,7 @@ class MyDrawer extends StatelessWidget {
           SizedBox(width: 16),
           Expanded(
             child: Text(
-              'Phong',
+              'htphong',
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 20,
